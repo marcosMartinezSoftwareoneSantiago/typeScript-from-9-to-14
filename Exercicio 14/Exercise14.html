@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='es'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width initial-scale=1.0'>
+        <meta name='title' content='Exercise 14' >
+        <meta name='description' content='Crea un proyecto con typescript que tenga un formulario donde a través de un input se pueda introducir y enviar texto. Crea un evento "keyup" (al soltar una tecla), que vaya imprimiendo el texto que se va introduciendo en la caja de texto dentro de otro elemento html un div situado debajo del formulario.' >
+        <meta name='author' content='Marcos Martinez' >
+        <meta name='language' content='es' >
+        <meta name='owner' content='SoftwareOne' >
+        <title>Exercise 14</title>
+    </head>
+    <body>
+        <form onsubmit="event.preventDefault();">
+            <input id="textoAIntroducir"></input>
+            <br>
+            <br>
+            <button type="submit">Introducir texto</button>
+        </form>
+        <br>
+        <hr style="margin: 30px;">
+        <br>
+        <div id="mostrarIntroduccion"></div>
+        <script src='Exercise14.js' crossorigin='ANONYMOUS/USE-CREDENTIALS' type='text/javascript' charset='UTF-8'></script>
+    </body>
+</html>
